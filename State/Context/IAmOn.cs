@@ -15,7 +15,7 @@ namespace State
         public override void TurnOff()
         {
             Console.WriteLine("Turning off the light....");
-            ctx.State = new IAmOn(ctx);
+            ctx.State = new IAmOff(ctx);
         }
 
         public override void TurnOn()
